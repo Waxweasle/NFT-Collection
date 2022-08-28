@@ -325,11 +325,11 @@ export default function Home() {
       return (
         <div>
           <div className={styles.description}>
-            Presale has started!!! If your address is whitelisted, Mint a Dev!
+            Presale has started!!! If your address is whitelisted, go ahead and Mint!
             🥳
           </div>
           <button className={styles.button} onClick={presaleMint}>
-            Presale Mint 🚀
+            Presale Mint 
           </button>
         </div>
       );
@@ -339,7 +339,7 @@ export default function Home() {
     if (presaleStarted && presaleEnded) {
       return (
         <button className={styles.button} onClick={publicMint}>
-          Public Mint 🚀
+          Public Mint 
         </button>
       );
     }
@@ -349,7 +349,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Mystery bois</title>
-        <meta name="description" content="Whitelist-Dapp" />
+        <meta name="description" content="Whitelist" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
